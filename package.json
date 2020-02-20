@@ -1,12 +1,17 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "@slack/events-api": "^2.3.1",
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.2",
-    "puppeteer": "^2.1.1",
-    "slackbots": "^1.2.0"
-  }
+    "puppeteer": "^2.1.1"
+  },
+  "name": "bundy-bot",
+  "version": "1.0.0",
+  "description": "automate timein/out",
+  "main": "index.js",
+  "author": "Nina Ricci Benite <ninariccimarie@gmail.com>",
+  "license": "MIT"
 }
