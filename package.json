@@ -1,6 +1,10 @@
 {
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
     "nodemon": "^2.0.2",
     "puppeteer": "^2.1.1",
     "slackbots": "^1.2.0"
